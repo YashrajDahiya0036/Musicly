@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" aria-label="Play">
+  <!-- Green circle background -->
+  <circle cx="24" cy="24" r="22" fill="hsla(144, 9%, 35%, 1.00)"/>
+
+  <!-- Black play triangle with rounded corners -->
+  <polygon points="20,16 20,32 32,24"
+           fill="black"
+           stroke="black"
+           stroke-width="2"
+           stroke-linejoin="round"/>
+</svg>

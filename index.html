@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" href="favicon.ico?v=2">
+
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg"> -->
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="home borderRounded p-1">
+                <div class="flex align">
+                    <img src="Assests/svg/musicly.svg" alt="musicly">
+                    <span>Musicly</span>
+                </div>
+                <ul class="flex column ">
+                    <li><img src="Assests/svg/home.svg" alt="home">Home</li>
+                    <li><img src="Assests/svg/search.svg" alt="search">Search</li>
+                </ul>
+                <img class="close" src="Assests/svg/cross.svg" alt="">
+            </div>
+            
+            <div class="library borderRounded p-1">
+                <div class="libHead flex align g-1"><img src="Assests/svg/library.svg" alt="library">
+                    <p>Library</p>
+                </div>
+                <div class="songList">
+                    <ul class="flex column songUL">
+                    </ul>
+                </div>
+                <div class="footer flex g-1">
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy Center</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                        </div>
+                        <div>
+                        <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"rel="noopener"><span>Cookies</span></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header flex align secShade borderRounded p-1">
+                <div class="flex g-1">
+                    <img class="hamburger pointer" src="Assests/svg/musicly.svg" alt="Hamburger">
+                    <img class="arrow " src="Assests/svg/left.svg" alt="left">
+                    <img class="arrow " src="Assests/svg/right.svg" alt="right">
+                </div>
+                <div>
+                    <button class="login">Log In</button>
+                    <button class="signup">Sign Up</button>
+                </div>
+            </div>
+            <div class="musicPlaylist p-1 secShade borderRounded">
+                <h1>Musicly Playlists</h1>
+                <div class="cardContainer flex g-1">
+                    
+                </div>
+            </div>
+            <div class="player secShade borderRounded flex align column">
+                <div class="songButtons flex align justify ">
+                    <div class="volume flex align g-1">
+                        <img class="pointer" src="Assests/svg/volume3.svg" alt="">
+                        <div class="seekbar borderRounded pointer">
+                            <div class="seek seekVol"></div>
+                        </div>
+                    </div>
+                    <img class="previousBtn pointer songCtrl" src="Assests/svg/previous.svg" alt="pervious">
+                    <img class="playBtn pointer songCtrl" src="Assests/svg/play.svg" alt="play">
+                    <!-- <img src="Assests/svg/pause.svg" alt="pause"> -->
+                    <img class="nextBtn pointer songCtrl" src="Assests/svg/next.svg" alt="next">
+                </div>
+                <div class="seekbar seekbar-song pointer broder borderRounded">
+                    <div class="seek seek-song pointer"></div>
+                </div>
+                <div class="songInfo flex">
+                    <div class="currentDuration">00:00</div>
+                    <div class="songName"><div>No Song Playing Currently</div></div>
+                    <div class="totalDuration">00:00</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+
+</html>

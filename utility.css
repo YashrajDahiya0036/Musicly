@@ -1,0 +1,80 @@
+.flex{
+    display: flex;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.align{
+    align-items: center;
+}
+
+.border{
+    border: 2px solid red;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.secShade{
+    background-color: hsl(0, 1%, 10%);
+}
+
+.borderRounded{
+    border-radius: 10px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.g-1{
+    gap: 10px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+/* Applies to all scrollbars */
+::-webkit-scrollbar {
+  width: 10px;              /* width of vertical scrollbar */
+  height: 10px;             /* height of horizontal scrollbar */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #1e1e1e;      /* dark background */
+  border-radius: 10px;
+}
+
+/* Handle (scroll thumb) */
+::-webkit-scrollbar-thumb {
+  background: #444;         /* medium gray */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* adds space effect */
+  transition: background 0.3s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;         /* lighter on hover */
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;            /* slim scrollbar */
+  scrollbar-color: #444 #1e1e1e;    /* thumb color | track color */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
